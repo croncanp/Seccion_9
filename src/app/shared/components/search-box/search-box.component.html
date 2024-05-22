@@ -1,0 +1,8 @@
+<!--(keyup.enter)="emitSearchByCapital(txtInput.value)-->
+<input
+  type="text"
+  [placeholder]="plceHolder"
+  class="form-control"
+  (keyup)="onKeyPress(txtInput.value)"
+  [value]="initialValue"
+  #txtInput>
